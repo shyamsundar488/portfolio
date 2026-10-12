@@ -1,57 +1,50 @@
-# 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
+# Aurora Portfolio
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./video.mp4)
+A modern portfolio website built with React, TypeScript, and Three.js to showcase work, skills, and projects in an immersive and interactive way.
 
-A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
-
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
-
-> Live preview: https://www.redoyanulhaque.me/
+This project was designed to feel premium, polished, and memorable while staying fast, responsive, and easy to customize.
 
 ---
 
-## ✨ Highlights
+## Features
 
-- **3D / WebGL experience** powered by **Three.js**
-- Smooth animations with **GSAP**
-- Modern **React + TypeScript** codebase
-- Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
-
----
-
-## 🧰 Tech Stack
-
-- **React**
-- **TypeScript**
-- **Three.js / WebGL**
-- **GSAP**
-- **HTML / CSS / JavaScript**
+- Interactive 3D visuals and WebGL experiences
+- Smooth motion and animation effects
+- Responsive layout for desktop and mobile devices
+- Clean and modern developer-focused design
+- Built for portfolio presentation and personal branding
 
 ---
 
-## 🚀 Getting Started
+## Tech Stack
 
-### 1) Clone
+- React
+- TypeScript
+- Vite
+- Three.js
+- React Three Fiber
+- Drei
+- GSAP
+- React Router
+- CSS and modern frontend tooling
 
-```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
-cd portfolio-website
-```
+---
 
-### 2) Install
+## Getting Started
+
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3) Run locally
+### 2. Start the development server
 
 ```bash
 npm run dev
 ```
 
-### 4) Build
+### 3. Build for production
 
 ```bash
 npm run build
@@ -59,41 +52,31 @@ npm run build
 
 ---
 
-## 🧩 Customize (Quick Guide)
+## Project Structure
 
-Typical things you’ll want to update:
-
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
-
----
-
-## ⭐ Support
-
-If you found this useful:
-
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
+```bash
+src/
+  components/
+  pages/
+  styles/
+  assets/
+  data/
+```
 
 ---
 
-## 🤝 Connect
+## Customization
 
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
+You can easily update the following:
 
----
-
-## 🏷️ Recommended GitHub Topics (add in repo settings)
-
-Add these topics to improve GitHub search visibility:
-
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
+- Hero text and personal branding
+- Project list and case studies
+- Skills and experience sections
+- Social links and contact details
+- Theme and visual styling
 
 ---
 
-## 🪪 License
+## License
 
-This project is open source and available under the **MIT License**. See [LICENSE](LICENSE).
+This project is open source and available under the MIT License.

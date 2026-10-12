@@ -1,13 +1,13 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
+        name: "Shyam",
+        fullName: "Shyam Sundar Pal",
         title: "AI & Full-Stack Developer",
         description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
     },
     social: {
         github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
+        email: "palshyamsundar48@gmail.com",
         location: "Bangladesh"
     },
     about: {
@@ -166,7 +166,7 @@ export const config = {
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
+        email: "palshyamsundar48@gmail.com",
         github: "https://github.com/red1-for-hek",
         linkedin: "https://linkedin.com/in/red1-for-hek",
         twitter: "https://x.com/red_1_ul",
