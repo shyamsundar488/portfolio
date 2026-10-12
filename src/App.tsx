@@ -10,9 +10,11 @@ const MyWorks = lazy(() => import("./pages/MyWorks"));
 const Play = lazy(() => import("./pages/Play"));
 import { LoadingProvider } from "./context/LoadingProvider";
 
+const routerBasename = import.meta.env.BASE_URL === "/" ? "/" : import.meta.env.BASE_URL.replace(/\/$/, "");
+
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename}>
       <Routes>
         <Route
           path="/"
